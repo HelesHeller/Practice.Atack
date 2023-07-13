@@ -31,17 +31,10 @@ void Attack(Character* character) {
 }
 
 int main() {
-
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-
     Player player;
     Enemy enemy;
 
-    
     Attack(&player);
-
-    
     Attack(&enemy);
 
     return 0;
